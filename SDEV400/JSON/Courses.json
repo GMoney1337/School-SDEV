@@ -1,0 +1,66 @@
+{
+	"Courses":
+	[
+		{
+			"PutRequest":
+			{
+				"Item":
+				{
+					"CourseID": {"S": "002"},
+					"Subject": {"S": "Math"},
+					"CatalogNbr": {"N": "100"},
+					"NumCredits": {"N": "3"}
+				}
+			}
+		},
+		{
+			"PutRequest":
+			{
+				"Item":
+				{
+					"CourseID": {"S": "001"},
+					"Subject": {"S": "English"},
+					"CatalogNbr": {"N": "100"},
+					"NumCredits": {"N": "3"}
+				}
+			}
+		},
+		{
+			"PutRequest":
+			{
+				"Item":
+				{
+					"CourseID": {"S": "003"},
+					"Subject": {"S": "Science"},
+					"CatalogNbr": {"N": "100"},
+					"NumCredits": {"N": "4"}
+				}
+			}
+		},
+		{
+			"PutRequest":
+			{
+				"Item":
+				{
+					"CourseID": {"S": "004"},
+					"Subject": {"S": "Sociology"},
+					"CatalogNbr": {"N": "100"},
+					"NumCredits": {"N": "4"}
+				}
+			}
+		},
+		{
+			"PutRequest":
+			{
+				"Item":
+				{
+					"CourseID": {"S": "0014"},
+					"Subject": {"S": "Anthropology"},
+					"CatalogNbr": {"N": "200"},
+					"NumCredits": {"N": "4"}
+				}
+			}
+		}
+		
+	]
+}

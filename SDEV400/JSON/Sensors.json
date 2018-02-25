@@ -1,0 +1,26 @@
+{
+	"Sensors":
+	[
+		{
+			"PutRequest":
+			{
+				"Item":
+				{
+					"Filepath_ID": {"N": "0"},
+					"Sensor": {"S": "Magnetic Sensor"},
+					"Sensor_Description": {"S": "Company X New Dev Sensor"}
+				}
+			}
+		},
+		{
+			"PutRequest":
+			{
+				"Item":
+				{
+					"Filepath_ID": {"N": "3"},
+					"Sensor": {"S": "IR Sensor"}
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"Students":
+	[
+		{
+			"PutRequest":
+			{
+				"Item":
+				{
+					"StudentID": {"N": "0000006"},
+					"FirstName": {"S": "Mike"},
+					"LastName": {"S": "Johnson"},
+					"EMail": {"S": "mjohnson@gmail.com"},
+					"ExpectedGradYear": {"N": "2014"},
+					"EnrollmentYear": {"N": "2010"},
+					"GPA": {"S": "3.5"}
+				}
+			}
+		},
+		{
+			"PutRequest":
+			{
+				"Item":
+				{
+					"StudentID": {"N": "0000007"},
+					"FirstName": {"S": "Tom"},
+					"LastName": {"S": "Phillips"},
+					"EMail": {"S": "tphillips@gmail.com"},
+					"EnrollmentYear": {"N": "2009"},
+					"ExpectedGradYear": {"N": "2013"},
+					"GPA": {"S": "3.5"}
+				}
+			}
+	
+		}
+		
+	]
+}
+ 
+ 

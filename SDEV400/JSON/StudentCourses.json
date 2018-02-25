@@ -1,0 +1,124 @@
+{
+	"StudentCourses":
+	[
+		{
+			"PutRequest":
+			{
+				"Item":
+				{
+					"StudentID": {"N": "0000005"},
+					"CourseID": {"N": "001"}
+					
+
+				}
+			}
+		},
+		{
+			"PutRequest":
+			{
+				"Item":
+				{
+					"StudentID": {"N": "0000005"},
+					"CourseID": {"N": "002"}
+
+
+				}
+			}
+		},
+		{
+			"PutRequest":
+			{
+				"Item":
+				{
+					"StudentID": {"N": "0000004"},
+					"CourseID": {"N": "003"}
+
+
+				}
+			}
+		},
+		{
+			"PutRequest":
+			{
+				"Item":
+				{
+					"StudentID": {"N": "0000004"},
+					"CourseID": {"N": "004"}
+				
+				}
+			}
+		},
+		{
+			"PutRequest":
+			{
+				"Item":
+				{
+					"StudentID": {"N": "0000003"},
+					"CourseID": {"N": "001"}
+					
+
+				}
+			}
+		},
+		{
+			"PutRequest":
+			{
+				"Item":
+				{
+					"StudentID": {"N": "0000003"},
+					"CourseID": {"N": "002"}
+					
+
+				}
+			}
+		},
+		{
+			"PutRequest":
+			{
+				"Item":
+				{
+					"StudentID": {"N": "0000002"},
+					"CourseID": {"N": "001"}
+					
+
+				}
+			}
+		},
+		{
+			"PutRequest":
+			{
+				"Item":
+				{
+					"StudentID": {"N": "0000002"},
+					"CourseID": {"N": "002"}
+					
+
+				}
+			}
+		},
+		{
+			"PutRequest":
+			{
+				"Item":
+				{
+					"StudentID": {"N": "0000001"},
+					"CourseID": {"N": "0014"}
+					
+
+				}
+			}
+		},
+		{
+			"PutRequest":
+			{
+				"Item":
+				{
+					"StudentID": {"N": "0000001"},
+					"CourseID": {"N": "004"}
+					
+
+				}
+			}
+		}
+	]
+}

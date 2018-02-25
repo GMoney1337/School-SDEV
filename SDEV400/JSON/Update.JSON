@@ -1,0 +1,26 @@
+{
+   "AttributeDefinitions": [ 
+      { 
+         "AttributeName": "string",
+         "AttributeType": "string"
+      }
+   ],
+   "GlobalSecondaryIndexUpdates": [ 
+      { 
+         "Create": { 
+            "IndexName": "string",
+            "KeySchema": [ 
+               { 
+                  "AttributeName": "string",
+                  "KeyType": "string"
+               }
+            ],
+            "Projection": { 
+               "NonKeyAttributes": [ "string" ],
+               "ProjectionType": "string"
+            },
+            "ProvisionedThroughput": { 
+               "ReadCapacityUnits": number,
+               "WriteCapacityUnits": number
+            }
+         },
