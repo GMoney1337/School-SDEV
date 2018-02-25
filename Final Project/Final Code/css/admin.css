@@ -1,0 +1,13 @@
+/* FILE: admin.css
+   DATE: 11/28/2017
+   PROJECT TEAM: Alexander DeForge, Douglas Evert, Pierre Lucceus, Galen Yanofsky
+   AUTHOR(revision table): 
+   Alexander DeForge::entire document (11/28)
+   PURPOSE: stylesheet for admin.html
+: */
+.section {
+	border-style: solid;
+	border-color: gray;
+	margin: 1rem;
+	padding: 0.5rem;
+}

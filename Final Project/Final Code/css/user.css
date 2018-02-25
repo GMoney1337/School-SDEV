@@ -1,0 +1,17 @@
+/* FILE: user.css
+   DATE: 11/30/2017
+   PROJECT TEAM: Alexander DeForge, Douglas Evert, Pierre Lucceus, Galen Yanofsky
+   AUTHOR(revision table): 
+   Alexander DeForge::entire document (11/30)
+   PURPOSE: stylesheet for user.html
+: */
+.section {
+	border-style: solid;
+	border-color: gray;
+	margin: 1rem;
+	padding: 0.5rem;
+}
+
+#results {
+	margin-top: 5rem;
+}

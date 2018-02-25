@@ -1,0 +1,91 @@
+<!-- FILE: user.html
+     DATE:11/30/2017
+	 PROJECT TEAM: Alexander DeForge, Douglas Evert, Pierre Lucceus, Galen Yanofsky
+     REVISION TABLE:
+     Alexander DeForge::entire document (11/30)
+	 Alexander DeForge :: refactored to work with algorithm to populate fields on load (12/14)
+	 Alexander DeForge :: added onbeforeunload and logout button (12/15)
+     PURPOSE: HTML markup for User View in HR webapp
+-->
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+    <main role="main">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12 mx-auto">
+				<p class="text-center"><a class="btn btn-secondary" href="http://ec2-52-90-44-3.compute-1.amazonaws.com" role="button">Log out</a></p>
+			</div>
+		</div>
+	    <div class="row">
+	      <div class="col-md-6 mx-auto">
+		<form>
+		<div id="user" class="form-group">
+			<fieldset disabled>
+			<div class="section">
+				<label>Name(s):</label>
+				<ul class="list-group names">
+					<li class="list-group-item"><input type="text" class="form-control">
+					</li>
+				</ul>
+			</div>
+			<div class="section">
+				<label>Phone(s):</label>					
+				<ul class="list-group phones">
+					<li class="list-group-item"><input type="text" class="form-control">
+					</li>
+				</ul>
+			</div>
+			<div class="section">
+				<label>Address(s):</label>					
+				<ul class="list-group addresses">
+					<li class="list-group-item"><input type="text" class="form-control">
+					</li>
+				</ul>
+			</div>
+			<div class="section">
+				<label>Salary:</label>
+				<ul class="list-group salaries">
+					<li class="list-group-item"><input type="text" class="form-control">
+					</li>
+				</ul>
+			</div>
+			<div class="section">
+				<label>PTO Balance:</label>
+				<ul class="list-group ptobalances">
+					<li class="list-group-item"><input type="text" class="form-control">
+					</li>
+				</ul>
+			</div>
+			</fieldset>
+			<div class="section">
+				<label>Demographic(s):</label>						
+				<ul id="demographics" class="list-group">
+					<li class="list-group-item"><input type="text" class="form-control">
+						<a class="btn btn-secondary remove" href="#" role="button">-</a>
+						<a class="btn btn-secondary add" href="#" role="button">+</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		</form>
+		<div class="text-center">
+			<a id="update_button" class="btn btn-secondary text-center" href="#">UPDATE</a>
+		</div>
+   	      </div>
+	  </div>
+      </div>
+  </main>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" href="http://ec2-52-90-44-3.compute-1.amazonaws.com/css/user.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <script src="http://ec2-52-90-44-3.compute-1.amazonaws.com/js/user.js"></script>
+	<script>
+		window.onbeforeunload = function() { return "Leave this page?"; }
+	</script>
+</body>
+</html>
