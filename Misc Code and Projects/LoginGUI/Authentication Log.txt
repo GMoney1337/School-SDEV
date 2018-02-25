@@ -1,0 +1,73 @@
+Login Entries: 
+
+Username: Yes
+Password: no
+Time: 2017-09-03 15:26:04.376
+Login Failure
+Login Entries: 
+
+Username: Galen
+Password: Y
+Time: 2017-09-03 15:26:10.961
+Login Failure
+Login Entries: 
+
+Username: sdevadmin
+Password: sdev460access
+Time: 2017-09-03 15:26:24.969
+Login Success
+
+Username: 
+Password: 
+Time: 2017-09-03 16:07:16.117
+Login Failure
+
+Username: 
+Password: 
+Time: 2017-09-03 16:07:25.174
+Login Failure
+
+Username: Galen
+Password: blah
+Time: 2017-09-03 16:08:52.134
+Login Failure
+
+Username: sdevadmin
+Password: sdev460access
+Time: 2017-09-03 16:16:18.222
+Login Success
+
+Username: dasd
+Password: asdasd
+Time: 2017-09-03 16:20:00.806
+Login Failure
+
+Username: sdevadmin
+Password: password
+Time: 2017-09-03 16:51:36.136
+Login Failure
+
+Username: Santa
+Password: Claus
+Time: 2017-09-03 16:51:48.419
+Login Failure
+
+Username: Spider
+Password: Man
+Time: 2017-09-03 16:52:18.164
+Login Failure
+
+Username: sdevadmin
+Password: access
+Time: 2017-09-03 16:52:32.574
+Login Failure
+
+Username: sdevadmin
+Password: sdev460access
+Time: 2017-09-03 16:52:45.634
+Login Success
+
+Username: 
+Password: 
+Time: 2017-09-05 22:16:40.214
+Login Failure

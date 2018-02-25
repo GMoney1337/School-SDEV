@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="fxmllogin.FXMLBannerController">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <TextArea layoutX="57.0" layoutY="26.0" prefHeight="309.0" prefWidth="463.0" text="pYou are accessing a U.S. Government (USG) Information System (IS) that is provided for USG-authorized use only. By using this IS (which includes any device attached to this IS), you consent to the following conditions:&#10;&#10;-The USG routinely intercepts and monitors communications on this IS for purposes including, but not limited to, penetration testing, COMSEC monitoring, network operations and defense, personnel misconduct (PM), law enforcement (LE), and counterintelligence (CI) investigations.&#10;&#10;-At any time, the USG may inspect and seize data stored on this IS.&#10;&#10;-Communications using, or data stored on, this IS are not private, are subject to routine monitoring, interception, and search, and may be disclosed or used for any USG-authorized purpose.&#10;&#10;-This IS includes security measures (e.g., authentication and access controls) to protect USG interests -- not for your personal benefit or privacy. " wrapText="true" />
+            <Button layoutX="263.0" layoutY="343.0" mnemonicParsing="false" text="Proceed" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
